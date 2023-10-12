@@ -1,17 +1,8 @@
 #!/usr/bin/env python3
-
-"""
-    Calculate and return the floor of a float.
-
-    Args:
-        n (float): The input float.
-
-    Returns:
-        int: The floor of 'n'.
-"""
-
+"""Contains a single function that calculates the floor of a number."""
 import math
 
-def floor(n: float) -> int:
-    return math.floor(n)
 
+def floor(n: float) -> int:
+    """Returns the floor of a float."""
+    return math.floor(n)

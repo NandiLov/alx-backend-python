@@ -1,16 +1,7 @@
 #!/usr/bin/env python3
-
-"""
-    Add two floating-point numbers.
-
-    Args:
-        a (float): The first floating-point number.
-        b (float): The second floating-point number.
-
-    Returns:
-        float: The sum of 'a' and 'b' as a float.
-    """
+"""Module that contains a single function that adds two integers."""
 
 
 def add(a: float, b: float) -> float:
+    """ Add two integers together."""
     return a + b
